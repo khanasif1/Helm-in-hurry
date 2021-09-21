@@ -1,6 +1,6 @@
 $FilePath=".\files\"
 $val=1
-while ($val -ne 10000000) {
+while ($val -ne 5000) {
 
     Write-Output "$($FilePath)$($val).text"
     New-Item "$($FilePath)$($val).text"
